@@ -4,10 +4,17 @@
 require 'pry'
 def key_for_min_value(name_hash)
   array_value = []
+  array_key = []
   name_hash.collect {
     |key, value|
     array_value << value
     array_value
+  }
+  
+  name_hash.collect {
+    |key, value|
+    array_key << key
+    array_key
   }
   
   min_value = array_value[0]
