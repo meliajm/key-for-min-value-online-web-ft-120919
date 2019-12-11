@@ -3,15 +3,15 @@
 
 require 'pry'
 def key_for_min_value(name_hash)
-  array = []
+  array_value = []
   name_hash.collect {
     |key, value|
-    array << value
-    array
+    array_value << value
+    array_value
   }
   
-  min_value = array[0]
-  array.each_with_index {
+  min_value = array_value[0]
+  array_value.each_with_index {
     |num, index|
     if num < min_value
       min_value = num 
