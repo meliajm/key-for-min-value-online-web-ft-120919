@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
     |num|
     if num < min_value
       min_value = num 
+    end
   }
   min_value
   binding.pry
