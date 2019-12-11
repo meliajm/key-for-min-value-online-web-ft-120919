@@ -3,7 +3,12 @@
 
 require 'pry'
 def key_for_min_value(name_hash)
-  # binding.pry 
+  name_hash.collect {
+    |key, value|
+  }
+end
+
+# binding.pry 
   # min_value = 0 
   # array = []
   # name_hash.each { |key, value|
@@ -14,4 +19,3 @@ def key_for_min_value(name_hash)
   # min_value ? min_value : nil 
     
   # }
-end
