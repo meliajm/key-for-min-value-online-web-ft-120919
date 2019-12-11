@@ -10,8 +10,8 @@ def key_for_min_value(name_hash)
     array
   }
   min_value = array[0]
-  array.each {
-    |num|
+  array.each_with_index {
+    |num, index|
     if num < min_value
       min_value = num 
     end
