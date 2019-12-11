@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
     array << value
     array
   }
+  
   min_value = array[0]
   array.each_with_index {
     |num, index|
