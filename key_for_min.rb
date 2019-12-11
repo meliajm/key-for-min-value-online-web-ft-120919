@@ -9,6 +9,13 @@ def key_for_min_value(name_hash)
     array << value
     array
   }
+  min_value = array[0]
+  array.each {
+    |num|
+    if num < min_value
+      min_value = num 
+  }
+  min_value
   binding.pry
 end
 
