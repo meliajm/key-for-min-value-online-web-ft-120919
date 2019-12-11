@@ -7,7 +7,9 @@ def key_for_min_value(name_hash)
   name_hash.collect {
     |key, value|
     array << value
+    array
   }
+  binding.pry
 end
 
 # binding.pry 
