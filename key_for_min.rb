@@ -30,5 +30,4 @@ def key_for_min_value(name_hash)
   }
   i = array_value.index(min_value)
   array_key[i]
-  # binding.pry
 end
